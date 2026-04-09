@@ -13,21 +13,21 @@ export interface AppIDConfig {
 export const DOMAIN_APP_IDS: Record<string, AppIDConfig> = {
     'new.dbtraders.com': {
         legacy_app_id: 70590,
-        new_app_id: '32R0yyuMgcxc7bhT7tOjJ',
+        new_app_id: '32yLjK6GVP6Z85WvbLAfo',
     },
     'newdbtraders.vercel.app': {
         legacy_app_id: 70590,
-        new_app_id: '32R67nHoRqm9bR8lPcPEQ',
+        new_app_id: '32yLjK6GVP6Z85WvbLAfo',
     },
     // Fallback for localhost and development
     'localhost': {
         legacy_app_id: 52960,
-        new_app_id: '32NzZv3sw9sjLSFUtK2Pn',
+        new_app_id: '32yLjK6GVP6Z85WvbLAfo',
     },
     // Fallback for ngrok URLs (match by prefix)
     'ngrok': {
         legacy_app_id: 131089,
-        new_app_id: '32NzZv3sw9sjLSFUtK2Pn',
+        new_app_id: '32yLjK6GVP6Z85WvbLAfo',
     },
 };
 
