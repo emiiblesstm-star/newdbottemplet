@@ -11,22 +11,22 @@ export interface AppIDConfig {
 }
 
 export const DOMAIN_APP_IDS: Record<string, AppIDConfig> = {
-    'new.dbtraders.com': {
-        legacy_app_id: 108853,
+    'newdbottemplet.pages.dev': {
+        legacy_app_id: 108826,
         new_app_id: '32yLjK6GVP6Z85WvbLAfo',
     },
-    'newdbtraders.vercel.app': {
-        legacy_app_id: 108853,
+    'newdbottemplet.pages.dev': {
+        legacy_app_id: 108826,
         new_app_id: '32yLjK6GVP6Z85WvbLAfo',
     },
     // Fallback for localhost and development
     'localhost': {
-        legacy_app_id: 108853,
+        legacy_app_id: 108826,
         new_app_id: '32yLjK6GVP6Z85WvbLAfo',
     },
     // Fallback for ngrok URLs (match by prefix)
     'ngrok': {
-        legacy_app_id: 108853,
+        legacy_app_id: 108826,
         new_app_id: '32yLjK6GVP6Z85WvbLAfo',
     },
 };
